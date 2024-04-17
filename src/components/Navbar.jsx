@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <div>
         <div className='grid grid-cols-12 mx-[5.2rem] justify-center'> 
-        <div className=' col-span-2 justify-start my-3 items-end'>
-          <img src={logo} className='items-end'></img>
+        <div className=' col-span-2 justify-start my-3 items-end align-middle '>
+          <img src={logo} className='items-end align-middle pt-2'></img>
         </div>
 
         <div className='nav-links  col-span-6  flex flex-row justify-evenly py-3 text-gray font-base text-lg items-center'>
